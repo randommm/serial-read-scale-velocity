@@ -1,0 +1,13 @@
+[package]
+name = "serial-read-scale-velocity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serialport = "4"
+tokio = { version = "1", features = ["rt", "macros"] }
+sqlx = { version = "0.8", features = [
+    "sqlite",
+    "runtime-tokio",
+    "tls-native-tls",
+] }

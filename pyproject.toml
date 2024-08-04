@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "serial-read-scale-velocity"
+version = "0.1.0"
+description = ""
+authors = ["Marco Inacio <m@marcoinacio.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "*"
+ipython = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
